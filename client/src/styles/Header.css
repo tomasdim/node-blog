@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;500;600;700&family=Lora:wght@400;500;600&family=Varela&family=Varela+Round&display=swap");
+
+.header {
+  margin-top: 60px;
+}
+
+.header-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", "serif";
+  color: #444;
+}
+
+.header-title-small {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.header-title-large {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+.header-image {
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+}
